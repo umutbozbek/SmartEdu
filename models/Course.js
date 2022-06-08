@@ -20,6 +20,6 @@ const CourseSchema = new Scheema({
 
 
 
-const Course=mongoose.model('Cource',CourseSchema)
+const Course=mongoose.model('Course',CourseSchema)
 
 module.exports=Course

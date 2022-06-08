@@ -1,14 +1,15 @@
 const Course = require('../models/Course')
 
-exports.createCource = async (req, res) => {
+exports.createCourse = async (req, res) => {
 
-    try {
+     try {
         const course = await Course.create(req.body)
         res.status(201).json({
             status: 'succes',
             course
         })
-    } catch {
+ 
+    } catch (error) {
         res.status(400).json({
             status: 'failed',
             error
