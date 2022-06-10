@@ -7,7 +7,8 @@ const app=express();
 
 
 // Connect DB
-mongoose.connect('mongodb://0.0.0.0:27017/smartedu-db').then(()=>{
+mongoose.connect('mongodb://0.0.0.0:27017/smartedu-db')
+.then(()=>{
     console.log('DB Connected Successfuly');
 })
 
