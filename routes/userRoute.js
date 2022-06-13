@@ -8,6 +8,7 @@ const router=express.Router();
 router.route('/signup').post(authController.createUser) //http://localhost:3000/user/signup
 router.route('/login').post(authController.loginUser)
 router.route('/logout').get(authController.logoutUser)
+router.route('/dashboard').get(authController.getDashboardPage)//http://localhost:3000/user/dashboard
 
 
 
