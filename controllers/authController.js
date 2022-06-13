@@ -1,5 +1,6 @@
 const User = require('../models/User')
 const bcrypt=require('bcrypt')
+
 exports.createUser = async (req, res) => {
 
     try {
@@ -28,7 +29,8 @@ exports.loginUser = async (req, res) => {
           bcrypt.compare(password, user.password, (err, same) => {
             if (same) {
               // USER SESSION
-              res.status(200).send('You are login')
+              req.session.userID=user._id
+              res.status(200).redirect('/')
             }
           });
         }
