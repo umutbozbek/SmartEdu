@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
-const bcrypt=require('bcrypt')
 const Scheema = mongoose.Schema
+const bcrypt=require('bcrypt')
+
 
 
 const UserSchema = new Scheema({
@@ -21,7 +22,11 @@ const UserSchema = new Scheema({
         type:String,
         enum:["student","teacher","admin"],
         default:"student"
-    }
+    },
+    courses:[{
+        type : mongoose.Schema.Types.ObjectId,
+        ref:'Course'
+    }]
 
 });
 

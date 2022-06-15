@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
-const slugify = require('slugify');
 const Scheema = mongoose.Schema
+const slugify = require('slugify');
+
 
 const CategorySchema = new Scheema({
     name: {
