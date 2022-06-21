@@ -13,7 +13,7 @@ const app = express();
 
 
 // Connect DB
-mongoose.connect('mongodb://0.0.0.0:27017/smartedu-db')
+mongoose.connect('mongodb+srv://dbUser:xCb6EKpyU408XRxn@cluster0.x51ocig.mongodb.net/smartedu-db?retryWrites=true&w=majority')
     .then(() => {
         console.log('DB Connected Successfuly');
     })
