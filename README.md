@@ -1,1 +1,22 @@
-# SmartEdu  Projesi Öğrencilerin ders aldığı aldığı dersi bırakabildiği Öğretmenlerin eğitim ekleyip çıkarabildiği ve eğitimlerin kategorilerinin olduğu bir proje.Ayrıca Admin panelinde kullanıcıları görebildiğimiz ders kategorileri ekleme,silme işlemlerini yaptığımız bir proje
+# SmartEdu  
+
+## Projenin Mantığı
+- Öğrencilerin dersleri alıp çıkarması
+- Öğretmenlerin dersleri ekleme,silme,güncelleme işlemlerini yapması
+- Öğretmenlerin dersleri kategorilere ayırması
+- Adminin kullanıcıları ekleme ve çıkarması 
+- Adminin derslerin kategorilerini eklemesi ve çıkarması
+
+## Dependencies
+- bcrypt
+- bcryptjs
+- connect-flash
+- connect-mongo
+- ejs
+- express
+- express-session
+- express-validator
+- method-override
+- mongoose
+- nodemailer
+- slugify
