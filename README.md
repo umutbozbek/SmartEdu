@@ -1,0 +1,1 @@
+# SmartEdu  Projesi Öğrencilerin ders aldığı aldığı dersi bırakabildiği Öğretmenlerin eğitim ekleyip çıkarabildiği ve eğitimlerin kategorilerinin olduğu bir proje.Ayrıca Admin panelinde kullanıcıları görebildiğimiz ders kategorileri ekleme,silme işlemlerini yaptığımız bir proje
