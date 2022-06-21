@@ -20,3 +20,6 @@
 - mongoose
 - nodemailer
 - slugify
+
+## Live Server
+- https://umutbozbek-smarteduapp.herokuapp.com/
